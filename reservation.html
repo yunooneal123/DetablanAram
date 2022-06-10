@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Navbar </title>
+	<link rel="stylesheet" href="navbar.css">
+	<link href="https://fonts.google.com/specimen/Goblin+One#standard-styles" rel="stylesheet">
+<link rel="stylesheet" type="text/css">
+<style>
+body{
+	margin: 0;
+	padding: 0;
+	background: url(aram.jpg);
+	background-size: cover;
+	background-position: center;
+}
+	.design{
+	border-width:0;
+			border: solid black 5px;
+			width: 50%;
+			border-radius: 10px;
+			margin: 10px auto;
+			background: brown;
+			font-family: Alfa Slab One;
+			margin-left: 25%;
+			margin-top: 10%;
+	}
+	input{
+		border-width:0;
+			border: solid gray 2px;
+			border-color: black;
+				height: 30px;
+			width: 100%;
+			margin: 20px auto
+
+	}
+	button{
+	font-family: 'Alfa Slab One' , cursive;
+	 margin-left: 50%;
+border: none;
+    outline: none;
+    height: 40px;
+    width: 200%;
+    background: black;
+    color: white;
+    font-size: 10px;
+    border-radius: 10px;
+	}
+	h2{
+			font-family: 'Alfa Slab One' , cursive;
+			color: green;
+    font-size: 25px;
+
+	}
+</style>
+</head>
+<header>
+	<h1> PIZZA <span> HOUSE </span></h1>
+	<nav>
+		<ul>
+			<li><a href="home.html"> Top Sales </a></li>
+			<li><a href="order.html"> Order Online </a></li>
+			<li><a href="menu.html"> Menu </a></li>
+			<li><a href="reservation.html"> Reservations </a></li>
+			<li><a href="location.html"> Location & Hours </a></li>
+		</ul>
+	</nav>
+
+</header>
+<body>
+
+<table>
+<div class="design">
+<li> <h2> MAKE A RESERVATION </h2> </li>
+<br>
+<li> <input type="date" name="date" value="DATE">  </li>
+<li> <input type="time" name="date" value="TIME"></li>
+<li> <input type="text" name="Partyzsize" list="status"  size="20" value="" > 
+			<datalist id="status" >
+				<option value="1 Person">
+					<option value="2 Person">
+						<option value="3 Person">
+							<option value="4 Person">
+								<option value="5 Person">
+										</datalist>
+									</option>
+					</li>
+					<li> <button type="submit" class="btn btn-primary" name="book"> BOOK </button>
+						 </li>
+
+</li>
+</div>
+
+
+</table>
+
+</body>
+</html>

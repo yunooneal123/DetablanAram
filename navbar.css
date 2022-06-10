@@ -1,0 +1,163 @@
+body{
+	background: url(aram.jpg);
+ 	 background-repeat: no-repeat;
+  	background-size: 100%;
+
+}
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #282828;
+}
+h1{
+	position: absolute;
+	padding: 3px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 10px;
+	font-family: 'Alfa Slab One' , cursive;
+	color: #39ca74;
+}
+span{
+	color: #ffffff;
+}
+
+ul{
+	width: auto;
+	float: right;
+	margin-top: 8px;
+
+}
+li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+
+}
+b{ 
+  color: green;
+  font
+
+}
+a:hover{
+	color: #F0c330;
+	transition: 0.5;
+}
+
+.zoom{
+	transition: transform 2s;
+
+}
+.zoom:hover{
+	transform: scale(1.2);
+
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.center{
+  text-align: center;
+}
+.tab1{
+  margin: auto;
+  background-color: red;
+  text-align:center;
+}
+.tab1 td{
+  background-image: url(bg2.jpg);
+  text-align: center;
+}
+.tab1 h2{
+  text-align: center;
+  color: #39ca74;
+  margin: auto;
+
+}
+.red{
+  background-color:lightgray;
+  text-align: center;
+  text-align: center;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.red img{
+  padding-right: auto;
+  padding-left: auto;
+  margin-left: 400px;
+  margin-right: 380px;
+  background-size: auto;
+
+
+}
+
+}
